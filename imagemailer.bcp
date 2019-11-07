@@ -1,0 +1,17 @@
+; Bamcompile project file
+mainfile imagemailer.php
+embed imagemailer\imagemailer.php
+embed imagemailer\php_winbinder.dll
+embed imagemailer\php_gd2.dll
+embed imagemailer\php_mbstring.dll
+embed imagemailer\php_exif.dll
+destination include
+embed imagemailer\include
+outfile imagemailer\imgsend.exe
+icon imagemailer\imgicon.ico
+compress
+windowed
+extension imagemailer\php_winbinder.dll
+extension imagemailer\php_gd2.dll
+extension imagemailer\php_mbstring.dll
+extension imagemailer\php_exif.dll

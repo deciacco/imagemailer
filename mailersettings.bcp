@@ -1,0 +1,13 @@
+mainfile mailersettings.php
+embed mailersettings\mailersettings.php
+embed mailersettings\php_winbinder.dll
+destination include
+embed mailersettings\include
+destination resource
+embed mailersettings\resource
+outfile mailersettings\mailersettings.exe
+icon mailersettings\otheroptions.ico
+compress
+windowed
+dontencode
+extension mailersettings\php_winbinder.dll
